@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100&family=Gravitas+One&family=Lemon&display=swap');
+
+.corpo {
+    width: 100%;
+
+}
+ h3{
+    margin-top: 0;
+     text-align: center;
+     color:rgb(41, 74, 102);
+     font-size:2vw;
+ }
+
+ h5{
+    margin-top: 0;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+    color:rgb(41, 74, 102);
+    font-size:1vw;
+    font-family: 'arial';
+    font-weight: lighter;
+}
+.corpo .assistente, .corpo .agenda, .corpo .asmr{ 
+    display: inline-block;
+
+}
+
+.corpo .assistente {
+    width: 33%; 
+    float: left; 
+    margin-top: 5vh; 
+    font-family: 'Gravitas One';
+    font-size:1.5vw;
+}
+
+.corpo .agenda {
+    width: 33%; margin: 0 auto;
+    margin-top: 5vh; 
+    font-size:1.5vw;
+}
+.corpo .asmr{ 
+    width: 33% ;
+    float: right;  
+    margin-top: 5vh; 
+    font-family: 'Mirza', cursive;
+    font-size:1.5vw; 
+}
+.clear { clear: both; }
+.img1{
+ width: 60%;
+
+ margin-left: 6vw;
+}
+
+.img2{
+    width: 60%;
+    margin-left: 6.5vw;
+}
+
+.img3{
+    width: 60%;
+    margin-left: 6.3vw;
+
+   }
+
+.opcoes {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0;
+
+}
+
+.opcoes .op1, .opcoes .op2, .opcoes .op3{ 
+    display: inline-block;
+    height: 3vh;
+
+}
+
+.opcoes .op1 {
+    width: 33%;     
+    float: left; 
+    margin-top: 1vh; 
+    font-family: 'Gravitas One';
+    font-size:1.5vw;
+    text-align: center;
+}
+
+.opcoes .op2 {
+    width: 33%; 
+    margin: 0 auto;
+    margin-top: 1vh; 
+    font-size:1.5vw;
+    text-align: center;
+}
+.opcoes .op3{ 
+    width: 33% ;
+    float: left;  
+    margin-top: 1vh; 
+    font-family: 'Mirza', cursive;
+    font-size:1.5vw; 
+    text-align: center;
+
+}
+
+.clear { clear: both; }
+
+.bt1{
+    background-image: linear-gradient(to right, rgb(160, 37, 236) , rgb(25, 20, 78));
+    border: none;
+    border-radius:2rem;
+    width: 20vw;
+    height: 300%;
+    margin-left: -1vw;
+    color:ghostwhite;
+    font-weight: bold;
+}
+
+.bt2{
+    background-image: linear-gradient(to right, rgb(146, 72, 192) , rgb(240, 150, 234));
+    border: none;
+    border-radius:2rem;
+    width: 20vw;
+    height: 300%;
+    margin-left: 2vw;
+    color:ghostwhite;
+    font-weight: bold;
+}
+
+.bt3{
+    background-image: linear-gradient(to right, rgb(239, 174, 10) , rgb(181, 138, 10));
+    border: none;
+    border-radius:2rem;
+    width: 20vw;
+    height: 300%;
+    color:ghostwhite;
+    font-weight: bold;
+}
+
+
+.bt1:hover{
+    background-image: linear-gradient(to right, rgb(25, 20, 78),rgb(160, 37, 236) );
+    color:rgb(124, 122, 145);
+    cursor:pointer;
+}
+
+.bt2:hover{
+    background-image: linear-gradient(to right, rgb(240, 150, 234), rgb(146, 72, 192));
+    color:rgb(243, 217, 217);
+    cursor:pointer;
+}
+
+.bt3:hover{
+    background-image: linear-gradient(to right, rgb(181, 138, 10), rgb(239, 174, 10));
+    color:rgb(230, 190, 89);
+    cursor:pointer;
+}
