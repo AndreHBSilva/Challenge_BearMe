@@ -2,15 +2,16 @@ import React from "react";
 import Corpo from "../corpo/Corpo";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
+import { Container } from "../../styles.js";
 
 const listaMenu = ['BearMe','Home', 'Nossa Missão', 'Sou Ansioso?'];
 
 export default function Master(){
     return (
-        <div id="container">
+        <Container>
             <Header menu={listaMenu}/>
             <Corpo/>
             <Footer/>
-        </div>
+        </Container>
     )
 }

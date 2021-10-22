@@ -16,25 +16,69 @@ export const CardButton = styled(Button)`
   position: relative;
   display: block;
   margin: 0 auto;
+  width: 100%;
 `;
 
 export const MainPage = styled.div`
+  h3 {
+    margin-top: 5vh;
+    text-align: center;
+    color:rgb(161, 48, 167);
+    font-size:1.8vw;
+  }
+
+  h4 {
+    margin-top: 0;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+    color:rgb(159, 74, 165);
+    font-size:1.3vw;
+    font-family: 'arial';
+    font-weight: bolder;
+    letter-spacing: .2rem;
+  }
+
+  h5 {
+    margin-top: 0;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+    color:rgb(85, 31, 113);
+    font-size:1vw;
+    font-family: 'arial';
+    font-weight: bolder;
+  }
+`;
+
+export const CardGrid = styled.div`
   display: grid;
+  width: 75%;
   grid-template-columns: repeat( auto-fit, minmax( min( (60rem - 100%) * 999, 100%), 1fr ) );
   column-gap: 35px;
   row-gap: 1.5rem;
   align-items: center;
+  margin: 0 auto;
+
+  @media(max-width: 1279px) {
+    width: 50%;
+    margin: auto;
+  }
 `;
 
 export const CardAtividade = styled.div`
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgb(50 50 50 / 22%);
+  padding: .5rem;
+  background-color: white;
   img {
     display: block;
     margin: 0 auto;
     padding-bottom: 0.5rem;
     border-radius: 0.5rem;
-    /* width: 250px; */
-    width: clamp(250px, 5vw, 20vw);
+    width: 100%;
   }
+
 `;
 
 export const Form = styled.form`
@@ -124,12 +168,28 @@ export const StyledHeader = styled.div`
 export const StyledFooter = styled.footer`
   text-align: center; 
   background-color: rgb(49, 1, 97);
-  color:rgb(217, 176, 220);
+  color: rgb(217, 176, 220);
     /* margin: 5vh 0vw; */
+  margin-top: 54px; 
   p{
-      font-size: 0.9vw;
+    font-size: 0.9vw;
+    margin-inline-end: 0;
+    margin-block-end: 0;
   }
 ` ;
+
+export const Container = styled.div`
+    /* margin-left: .5vw;
+    margin-right: .5vw; */
+    background-color:#DDA0DD;
+    min-width: 385px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    list-style-position: inside;
+    h2 {
+        font-size: 1.3em;
+    }
+`;
 // export const ImgCard = styled.img`
 //   position: absolute;
 //   border-radius: 0.5rem;
