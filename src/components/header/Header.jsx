@@ -1,43 +1,37 @@
-import React from 'react'
-import './Header.css'
-import Bm from '../../img/bear.png'
+import React from 'react';
+import './Header.css';
+import Bm from '../../img/bear.png';
+import { StyledHeader } from '../../styles.js';
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
-export default function Header(props){
+const LinkMenu  = styled(Link)`
+   text-decoration: none;  
+   cursor: pointer;
+   color: silver;
+`;
 
-    const isLogado = true;
+export default function Header(props) {
+    return (
+        <StyledHeader>
 
-        return (
-            <div className="container-header">
-                <header>
-                    <nav >
-                        <div className="menuPrincipal">
-                        
-                            <ul>
-                            
-                                <div className="bear-me">
-                                    <li><img src={Bm} alt="" /></li>
-                                    <li> <a href="#">{props.menu[0]}</a></li>
-                                </div>
-                                
-                                <div className="links">
-                                    <li><a href="#">{props.menu[1]}</a></li>
-                                    <li><a href="#">{props.menu[2]}</a></li>
-                                    <li><a href="#">{props.menu[3]}</a></li>
-                                </div>
-                            </ul>
-                        </div>
-                    </nav>
-    
-                    <div className="div-entra">
-                        Caso ainda nao tenha um cadastro, registre-se&nbsp; <a href="#"> aqui.</a>
-                        <button className="btnentra">{!isLogado ? "Entrar" : "Entrar Anônimo"}</button>
-                        {/* {!logado ? <button className="btnentra">Entrar</button> : <button className="btnentra2">Entrar Anonimo</button>} */}
-                        {/* <button className="btnentra">Entrar</button>
-                        <button className="btnentra2">Entrar Anonimo</button> */}
-                    </div>
-                </header>
+            <div class="menu-principal">
+                <div className="card bear-me"><img className="imagem" src={Bm} alt="" /></div>
+                <div className="card bear-me"><LinkMenu className="link" to='/home'>{props.menu[0]}</LinkMenu></div>
+                <div className="card links">
+                    <ul>
+                        <li><LinkMenu className="link" to='/home'>{props.menu[1]}</LinkMenu></li>
+                        <li><LinkMenu className="link" to='/nossa_missao'>{props.menu[2]}</LinkMenu></li>
+                        <li><LinkMenu className="link" to='/sou_ansioso'>{props.menu[3]}</LinkMenu></li>
+                    </ul>             
+                </div>
             </div>
-    
-        )
+            <div className="menu-login">
+                <div className="sub">Caso ainda nao tenha um cadastro, registre-se&nbsp; <a href="#"> aqui.</a></div>
+                <div className="sub"><button className="btn entra">Entrar</button></div>
+                <div className="sub"><button className="btn entra2">Entrar Anonimo</button></div>
+            </div>
+        </StyledHeader>
 
+    )
 }
