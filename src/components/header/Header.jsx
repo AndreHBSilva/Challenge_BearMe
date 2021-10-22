@@ -27,7 +27,7 @@ export default function Header(props) {
                 </div>
             </div>
             <div className="menu-login">
-                <div className="sub">Caso ainda nao tenha um cadastro, registre-se&nbsp; <a href="#"> aqui.</a></div>
+                <div className="sub">Caso ainda nao tenha um cadastro, registre-se&nbsp; <a href="/"> aqui.</a></div>
                 <div className="sub"><button className="btn entra">Entrar</button></div>
                 <div className="sub"><button className="btn entra2">Entrar Anonimo</button></div>
             </div>

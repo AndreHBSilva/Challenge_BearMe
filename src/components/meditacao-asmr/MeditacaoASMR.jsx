@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import youtubeAPI from '../../api/youtube';
 
 export default function MeditacaoASMR(props) {
-  const [search, setSearch] = useState({});
+  // const [search, setSearch] = useState({});
 
   useEffect(() => {
     const onSearch = async () => {
