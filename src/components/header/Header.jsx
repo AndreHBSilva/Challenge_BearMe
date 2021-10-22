@@ -15,7 +15,7 @@ export default function Header(props) {
     return (
         <StyledHeader>
 
-            <div class="menu-principal">
+            <div className="menu-principal">
                 <div className="card bear-me"><img className="imagem" src={Bm} alt="" /></div>
                 <div className="card bear-me"><LinkMenu className="link" to='/home'>{props.menu[0]}</LinkMenu></div>
                 <div className="card links">

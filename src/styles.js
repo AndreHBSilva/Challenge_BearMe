@@ -194,6 +194,13 @@ export const Container = styled.div`
         font-size: 1.3em;
     }
 `;
+
+export const StyledChatElement = styled.div`
+  height: 600px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 15px;
+`
 // export const ImgCard = styled.img`
 //   position: absolute;
 //   border-radius: 0.5rem;

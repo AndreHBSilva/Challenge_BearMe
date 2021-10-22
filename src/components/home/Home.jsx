@@ -29,7 +29,7 @@ export default function Home(){
           <CardAtividade>
               <img src={Asmr} alt="" />
               <CardButton backgroundImage="linear-gradient(to right, rgb(146, 72, 192) , rgb(240, 150, 234))"
-              >
+              hover="linear-gradient(to right, rgb(240, 150, 234), rgb(146, 72, 192))">
                   Meditação e ASMR
               </CardButton>
           </CardAtividade>
