@@ -2,8 +2,9 @@
 
 .corpo {
     width: 100%;
-
+    display: grid;
 }
+
  h3{
     margin-top: 0;
      text-align: center;
@@ -24,6 +25,12 @@
 .corpo .assistente, .corpo .agenda, .corpo .asmr{ 
     display: inline-block;
 
+}
+
+.card-atividade {
+    width: 33%;
+    font-family: 'Gravitas One';
+    font-size: 1.5vw;
 }
 
 .corpo .assistente {

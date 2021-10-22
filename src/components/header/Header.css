@@ -46,13 +46,13 @@
 }
 
 .btnentra{
-
+    white-space: nowrap;
     background-image: linear-gradient(to right, rgb(235, 245, 240), rgb(206, 203, 243));
     margin-left: 1vw;
     margin-right: 1vw;
     border: none;
     border-radius:2rem;
-    width: 5vw;
+
     height: 80%;
     color:rgb(112, 112, 158);
     font-weight: bold;
