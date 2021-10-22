@@ -3,7 +3,7 @@ import './Corpo.css'
 import Techbot from '../../img/techbot.jpeg'
 import Asmr from '../../img/asmr.jpeg'
 import Agenda from '../../img/agenda.jpeg'
-import { CardAtividade, Button, MainPage } from '../../styles';
+import { CardAtividade, CardButton, MainPage } from '../../styles';
 
 export default function Corpo(){
     return (
@@ -13,15 +13,21 @@ export default function Corpo(){
             <MainPage>
                 <CardAtividade>
                     <img src={Techbot} alt="" />
-                    <Button backgroundImage="linear-gradient(to right, rgb(160, 37, 236) , rgb(25, 20, 78))">BearMe Assistant</Button>
+                    <CardButton backgroundImage="linear-gradient(to right, rgb(160, 37, 236) , rgb(25, 20, 78))">
+                        BearMe Assistant
+                    </CardButton>
                 </CardAtividade>
                 <CardAtividade>
                     <img src={Agenda} alt="" />
-                    <Button backgroundImage="linear-gradient(to right, rgb(160, 37, 236) , rgb(25, 20, 78))">BearMe Assistant</Button>
+                    <CardButton backgroundImage="linear-gradient(to right, rgb(160, 37, 236) , rgb(25, 20, 78))">
+                        Agenda de Tarefas 
+                    </CardButton>
                 </CardAtividade>
                 <CardAtividade>
                     <img src={Asmr} alt="" />
-                    <Button backgroundImage="linear-gradient(to right, rgb(160, 37, 236) , rgb(25, 20, 78))">BearMe Assistant</Button>
+                    <CardButton backgroundImage="linear-gradient(to right, rgb(160, 37, 236) , rgb(25, 20, 78))">
+                        Meditação e ASMR
+                    </CardButton>
                 </CardAtividade>
                 {/* <div className="assistente">
                     <img className="img1" src={Techbot} alt="" />
