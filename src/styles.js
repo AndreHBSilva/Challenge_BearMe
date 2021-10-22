@@ -17,9 +17,13 @@ export const CardButton = styled(Button)`
   display: block;
   margin: 0 auto;
   width: 100%;
+
+  :hover {
+    background-image: ${props => props.hover || ''};
+  }
 `;
 
-export const MainPage = styled.div`
+export const StyledHome = styled.div`
   h3 {
     margin-top: 5vh;
     text-align: center;
