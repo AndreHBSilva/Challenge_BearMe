@@ -3,8 +3,12 @@ import Techbot from '../../img/techbot.jpeg';
 import Asmr from '../../img/asmr.jpeg';
 import Agenda from '../../img/agenda.jpeg';
 import { CardAtividade, CardButton, StyledHome, CardGrid } from '../../styles';
+import { useHistory } from 'react-router-dom';
 
 export default function Home(){
+
+  const history = useHistory();
+
   return (
     <>
       <StyledHome>
@@ -15,7 +19,7 @@ export default function Home(){
           <CardAtividade>
               <img src={Techbot} alt="" />
               <CardButton backgroundImage="linear-gradient(to right, rgb(160, 37, 236) , rgb(25, 20, 78))"
-              hover="linear-gradient(to right, rgb(25, 20, 78),rgb(160, 37, 236) )">
+              hover="linear-gradient(to right, rgb(25, 20, 78),rgb(160, 37, 236) )" onClick={() => history.push('/BearMeAssistant')}>
                   BearMe Assistant
               </CardButton>
           </CardAtividade>

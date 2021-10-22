@@ -199,10 +199,10 @@ export const StyledChatElement = styled.div`
   height: 600px;
   width: 50%;
   margin: 0 auto;
-  margin-top: 15px;
+  padding: 1rem;
+  margin-top: 30px;
 `
-// export const ImgCard = styled.img`
-//   position: absolute;
-//   border-radius: 0.5rem;
-//   width: 100%;
-// `
+
+export const StyledYoutubeVideo = styled.div`
+
+`;
