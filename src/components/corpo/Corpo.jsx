@@ -7,7 +7,7 @@ import MeditacaoASMR from '../meditacao-asmr/MeditacaoASMR';
 export default function Corpo(){
     return (
         <Switch> 
-            <Route path="/" exact="/home" component={Home} />
+            <Route exact path="/" component={Home} />
             <Route path="/home" component={Home} />
             <Route path="/BearMeAssistant" component={Assistente} />
             <Route path="/MeditacaoASMR" component={MeditacaoASMR} />
