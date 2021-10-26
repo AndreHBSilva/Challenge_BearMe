@@ -1,6 +1,13 @@
-import styled from "styled-components";
+import styled from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
+
+export default createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Glory:wght@100&family=Gravitas+One&family=Lemon&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Glory:wght@100&family=Gravitas+One&family=Lemon&family=Mirza:wght@600&display=swap');
+`;
 
 export const Button = styled.button`
+
   background-image: ${props => props.backgroundImage || "linear-gradient(to right, rgb(146, 72, 192) , rgb(240, 150, 234))"};
   border: none;
   border-radius: 2rem;
@@ -187,7 +194,7 @@ export const Container = styled.div`
     margin-right: .5vw; */
     background-color:#DDA0DD;
     min-width: 385px;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Gravitas One', cursive;
     font-weight: 400;
     list-style-position: inside;
     h2 {
@@ -302,4 +309,8 @@ export const FormatedNossaMissao = styled.div`
       font-weight: bolder;
   }
 
+`;
+
+export const VideosMeditacao = styled.div`
+  text-align: center;
 `;

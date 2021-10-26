@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import VideoYoutube from '../videoYoutube/VideoYoutube';
+import { VideosMeditacao } from '../../styles';
 
 export default function MeditacaoASMR(props) {
   const [search, setSearch] = useState([]);
@@ -22,13 +23,13 @@ export default function MeditacaoASMR(props) {
   if(search.length !== 0) {
     videos = JSON.parse(search);
     return(
-      <div>
+      <VideosMeditacao>
         <h1>Vídeos feitos para você relaxar.</h1>
         {videos.map((item, index) => {
           console.log(item);
           return <VideoYoutube videoId={item.id.videoId} key={index} />
         })}
-      </div>
+      </VideosMeditacao>
     )
   } else {
     return(
