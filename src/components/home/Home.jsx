@@ -26,7 +26,7 @@ export default function Home(){
           <CardAtividade>
               <img src={Agenda} alt="" />
               <CardButton backgroundImage="linear-gradient(to right, rgb(239, 174, 10) , rgb(181, 138, 10))"
-              hover="linear-gradient(to right, rgb(181, 138, 10), rgb(239, 174, 10))">
+              hover="linear-gradient(to right, rgb(181, 138, 10), rgb(239, 174, 10))" onClick={() => history.push('/Agenda')}>
                   Agenda de Tarefas 
               </CardButton>
           </CardAtividade>

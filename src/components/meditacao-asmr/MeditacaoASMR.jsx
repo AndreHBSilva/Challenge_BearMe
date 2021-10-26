@@ -23,7 +23,7 @@ export default function MeditacaoASMR(props) {
     videos = JSON.parse(search);
     return(
       <div>
-        <h1>Vídeos feitos para relaxar</h1>
+        <h1>Vídeos feitos para você relaxar.</h1>
         {videos.map((item, index) => {
           console.log(item);
           return <VideoYoutube videoId={item.id.videoId} key={index} />
