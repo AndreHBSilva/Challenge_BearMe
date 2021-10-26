@@ -11,7 +11,7 @@ export default function FormLogin(props) {
     "dataNascimento": new Date().toLocaleDateString('pr-br')
   }
 
-  let convidado
+  let convidado;
 
   const handleSubmit = e => {
     e.preventDefault();
