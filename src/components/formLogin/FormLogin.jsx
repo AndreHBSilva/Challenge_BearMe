@@ -1,17 +1,17 @@
-import { useState } from "react"
+// import { useState } from "react"
 
 export default function FormLogin(props) {
 
-  const [isLogado, setIsLogado] = useState(true);
+  // const [isLogado, setIsLogado] = useState(true);
 
-  let usuario = {
-    "nickname": "",
-    "email": "",
-    "senha": "",
-    "dataNascimento": new Date().toLocaleDateString('pr-br')
-  }
+  // let usuario = {
+  //   "nickname": "",
+  //   "email": "",
+  //   "senha": "",
+  //   "dataNascimento": new Date().toLocaleDateString('pr-br')
+  // }
 
-  let convidado;
+  // let convidado;
 
   const handleSubmit = e => {
     e.preventDefault();
