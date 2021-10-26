@@ -4,6 +4,8 @@ import Assistente from '../assistente/Assistente';
 import Home from '../home/Home';
 import MeditacaoASMR from '../meditacao-asmr/MeditacaoASMR';
 import Agenda from '../agenda/Agenda';
+import NossaMissao from "../nossa_missao/NossaMissao";
+import SouAnsioso from "../sou_ansioso/SouAnsioso";
 
 export default function Corpo(){
     return (
@@ -13,6 +15,8 @@ export default function Corpo(){
             <Route path="/BearMeAssistant" component={Assistente} />
             <Route path="/MeditacaoASMR" component={MeditacaoASMR} />
             <Route path="/Agenda" component={Agenda} />
+            <Route path="/sou_ansioso" component={SouAnsioso} />
+            <Route path="/nossa_missao" component={NossaMissao} />
         </Switch>
     )
 }

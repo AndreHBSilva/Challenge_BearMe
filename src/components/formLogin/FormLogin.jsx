@@ -1,19 +1,19 @@
 import { useState } from "react"
 import Button from "../button/Button";
 
-export default function Form(props) {
-
+export default function FormLogin(props) {
 
   const [isLogado, setIsLogado] = useState(true);
 
+
   return(
-    <div>
-      <form action={props.action} method={props.method} id={props.id}>
-        <h1>{props.titulo}</h1>
-        <input type="text" placeholder="Nickname"></input>
-      </form>
-      <Button type="submit" form={props.id} value="Submit" bg="linear"> Entrar </Button>
-      {/* <button type="submit" form="login-anonimo" value="Submit">Entrar</button> */}
-    </div>
+    <form>
+    <h2>{props.header}</h2>
+    {props.isConvidado ?
+      <input type="text" placeholder="Nickname"></input>
+     : <input type="text" placeholder="E-mail"></input>
+      <input type="password" placeholder="Senha"></input> }
+     <Button> Entrar </Button>
+    </form>
   )
 }

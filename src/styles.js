@@ -91,82 +91,82 @@ export const Form = styled.form`
 
 export const Input = styled.input`
   display: block;
-
+  border-radius: 0.5rem; 
 `;
 
 export const StyledHeader = styled.div`
   .menu-principal{
-        margin-top: 0;
-        text-align: start;
-        width: 100%;
-        background-color: rgb(49, 1, 97);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    margin-top: 0;
+    text-align: start;
+    width: 100%;
+    background-color: rgb(49, 1, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .card a {
-        text-decoration: none;
-        color:rgb(217, 176, 220);
-    }
-    .card a:hover {
-        text-decoration: none;
-        color:white;
-    }
-    .links ul li{
-        display: inline-block;
-        margin-inline: 2.0vw;
-        font-size: 2.5vw;
-    }
+  .card a {
+    text-decoration: none;
+    color:rgb(217, 176, 220);
+  }
+  .card a:hover {
+    text-decoration: none;
+    color:white;
+  }
+  .links ul li{
+    display: inline-block;
+    margin-inline: 2.0vw;
+    font-size: 2.5vw;
+  }
 
-    .bear-me {
-        margin-right: 1vw;
-        font-size: 2.1vw;
-    }
+  .bear-me {
+    margin-right: 1vw;
+    font-size: 2.1vw;
+  }
 
-    .imagem{
-        max-width: 4vw;
-        max-height: 4vw;
-        margin-top: 1.5vh;
-    }
-    .menu-login{
-        margin-top: 0;
-        text-align: start;
-        width: 100%;
-        background-color: rgb(64, 41, 133);
-        display: flex;
-        justify-content: right;
-        align-items: center;
+  .imagem{
+    max-width: 4vw;
+    max-height: 4vw;
+    margin-top: 1.5vh;
+  }
+  .menu-login{
+    margin-top: 0;
+    text-align: start;
+    width: 100%;
+    background-color: rgb(64, 41, 133);
+    display: flex;
+    justify-content: right;
+    align-items: center;
 
-    }
-    .sub{
-        display: inline-block;
-        margin: 0.5vw;
-        color: lightsteelblue;
-        font-size: 1.1vw;
-    }
+  }
+  .sub{
+    display: inline-block;
+    margin: 0.5vw;
+    color: lightsteelblue;
+    font-size: 1.1vw;
+  }
 
-    .sub a{
-        text-decoration: none;
-        color: #FFF;
-    }
+  .sub a{
+    text-decoration: none;
+    color: #FFF;
+  }
 
-    .btn{
-        background-image: linear-gradient(to right, rgb(235, 245, 240), rgb(206, 203, 243));
-        border: none;
-        border-radius:2rem;
-        width: 10vw;
-        height: 4vh;
-        color:rgb(112, 112, 158);
-        font-weight: bolder;
-        font-size: 1vw;
-    }
+  .btn{
+    background-image: linear-gradient(to right, rgb(235, 245, 240), rgb(206, 203, 243));
+    border: none;
+    border-radius:2rem;
+    width: 10vw;
+    height: 4vh;
+    color:rgb(112, 112, 158);
+    font-weight: bolder;
+    font-size: 1vw;
+  }
 
-    .btn:hover{
-        background-image: linear-gradient(to left, rgb(235, 245, 240), rgb(206, 203, 243));
-        color:rgb(37, 37, 51);
-        cursor:pointer;
-    }
+  .btn:hover{
+    background-image: linear-gradient(to left, rgb(235, 245, 240), rgb(206, 203, 243));
+    color:rgb(37, 37, 51);
+    cursor:pointer;
+  }
 `;
 
 export const StyledFooter = styled.footer`
@@ -204,5 +204,102 @@ export const StyledChatElement = styled.div`
 `
 
 export const StyledYoutubeVideo = styled.div`
+
+`;
+
+export const FormatedSouAnsioso = styled.div`
+  .imagem{
+      display: block;
+      margin-top: auto;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%; 
+  }
+  p {
+      margin-left: 5vw;
+      margin-right: 5vw;
+      font-size: 1vw;
+  }
+
+  ol li{
+      margin-left: 5vw;
+      margin-right: 5vw;
+      font-size: 1vw;
+  }
+
+  ul li{
+      margin-left: 5vw;
+      margin-right: 5vw;
+      font-size: 1vw;
+  }
+  h3{
+      margin-top: 5vh;
+      text-align: center;
+      color:rgb(161, 48, 167);
+      font-size:1.8vw;
+  }
+
+  h4{
+      margin-top: 10vh;
+      margin-left: 5vw;
+      margin-right: 5vw;
+      text-align: left;
+      color:rgb(159, 74, 165);
+      font-size:1.3vw;
+      font-family: 'arial';
+      font-weight: bolder;
+      letter-spacing: .2rem;
+  }
+
+  h5{
+      margin-top: 0;
+      margin-left: 5vw;
+      margin-right: 5vw;
+      text-align: center;
+      color:rgb(85, 31, 113);
+      font-size:1vw;
+      font-family: 'arial';
+      font-weight: bolder;
+  }
+
+`;
+
+export const FormatedNossaMissao = styled.div`
+  p {
+      margin-left: 5vw;
+      margin-right: 5vw;
+      font-size: 1vw;
+  }
+
+  
+  h3{
+      margin-top: 5vh;
+      text-align: center;
+      color:rgb(161, 48, 167);
+      font-size:1.8vw;
+  }
+
+  h4{
+      margin-top: 10vh;
+      margin-left: 5vw;
+      margin-right: 5vw;
+      text-align: left;
+      color:rgb(159, 74, 165);
+      font-size:1.3vw;
+      font-family: 'arial';
+      font-weight: bolder;
+      letter-spacing: .2rem;
+  }
+
+  h5{
+      margin-top: 0;
+      margin-left: 5vw;
+      margin-right: 5vw;
+      text-align: center;
+      color:rgb(85, 31, 113);
+      font-size:1vw;
+      font-family: 'arial';
+      font-weight: bolder;
+  }
 
 `;
