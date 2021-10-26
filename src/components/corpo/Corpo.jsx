@@ -1,4 +1,5 @@
 import React from 'react'
+import './Corpo.css';
 import { Route, Switch } from 'react-router-dom';
 import Assistente from '../assistente/Assistente';
 import Home from '../home/Home';
