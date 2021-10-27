@@ -45,7 +45,7 @@ export const StyledHome = styled.div`
     text-align: center;
     color:rgb(159, 74, 165);
     font-size:1.3vw;
-    font-family: 'arial';
+    font-family: 'Arial';
     font-weight: bolder;
     letter-spacing: .2rem;
   }
@@ -57,7 +57,7 @@ export const StyledHome = styled.div`
     text-align: center;
     color:rgb(85, 31, 113);
     font-size:1vw;
-    font-family: 'arial';
+    font-family: 'Arial';
     font-weight: bolder;
   }
 `;
@@ -194,7 +194,7 @@ export const Container = styled.div`
     margin-right: .5vw; */
     background-color:#DDA0DD;
     min-width: 385px;
-    font-family: 'Gravitas One', cursive;
+    font-family: cursive;
     font-weight: 400;
     list-style-position: inside;
     h2 {
@@ -253,7 +253,7 @@ export const FormatedSouAnsioso = styled.div`
       text-align: left;
       color:rgb(159, 74, 165);
       font-size:1.3vw;
-      font-family: 'arial';
+      font-family: 'Arial';
       font-weight: bolder;
       letter-spacing: .2rem;
   }
@@ -265,7 +265,7 @@ export const FormatedSouAnsioso = styled.div`
       text-align: center;
       color:rgb(85, 31, 113);
       font-size:1vw;
-      font-family: 'arial';
+      font-family: 'Arial';
       font-weight: bolder;
   }
 
@@ -293,7 +293,7 @@ export const FormatedNossaMissao = styled.div`
       text-align: left;
       color:rgb(159, 74, 165);
       font-size:1.3vw;
-      font-family: 'arial';
+      font-family: 'Arial';
       font-weight: bolder;
       letter-spacing: .2rem;
   }
@@ -305,7 +305,7 @@ export const FormatedNossaMissao = styled.div`
       text-align: center;
       color:rgb(85, 31, 113);
       font-size:1vw;
-      font-family: 'arial';
+      font-family: 'Arial';
       font-weight: bolder;
   }
 
