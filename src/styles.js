@@ -278,8 +278,8 @@ export const FormatedNossaMissao = styled.div`
         margin-top: auto;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
-        height: 50%;
+        margin-bottom: 1rem;
+        width: 40%;
     }
 
   p {

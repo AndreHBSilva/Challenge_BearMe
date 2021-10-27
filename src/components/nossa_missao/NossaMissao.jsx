@@ -8,9 +8,9 @@ export default function NossaMissao() {
 
         <FormatedNossaMissao>
             <h3>Te ajudar a enfrentar a Ansidade, como um URSO!</h3>
+            <img className="imagem" src={UrsoZen} alt="" />
             <h5>Controlar a ansiedade é um desafio, mas existem estratégias, recursos e até mesmo mudanças que você pode fazer em seu dia a dia que vão auxiliar com isso, e em nosso portal, disponibilizamos três opcões para te ajudar a superar esse desafio!</h5>
             
-            <img className="imagem" src={UrsoZen} alt="" />
             <h4>Um amigo virtual!</h4>
             <p>Quem nunca precisou de um amigo que sempre estivesse pronto e apto a nos ouvir, quando precisamos desabafar!?</p>
             <p>E se essa conversa fosse aberta, livre de julgamentos e de preceitos? Esta é a função do Bear! </p>
