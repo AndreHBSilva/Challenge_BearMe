@@ -272,6 +272,16 @@ export const FormatedSouAnsioso = styled.div`
 `;
 
 export const FormatedNossaMissao = styled.div`
+
+  .imagem{
+        display: block;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%;
+    }
+
   p {
       margin-left: 5vw;
       margin-right: 5vw;
